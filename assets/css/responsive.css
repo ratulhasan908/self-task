@@ -1,0 +1,125 @@
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+    a.navbar-brand img {
+        width: 55%;
+    }
+    
+    section.banner-section {
+        padding: 0;
+    }
+    
+    section.chefs {
+        padding: 0;
+    }
+    
+    .burger-meta {
+        padding: 10px;
+    }
+    
+    
+    section.big-burger {
+        padding: 0;
+    }
+    
+    .burger-img {
+        padding-bottom: 25px;
+    }
+    
+    section.packages {
+        padding: 0;
+    }
+    
+    .single-package.text-center img {
+        width: 35%;
+    }
+    
+    .single-package.text-center {
+        margin: 10px;
+    }
+    
+    section.barry.barry-bg {
+        padding: 30px;
+    }
+    
+    section.update {
+        padding: 30px;
+    }    
+    section.footer {
+        padding: 20px;
+    }
+    section.footer .col-md-2 {
+        width: 33.33%;
+    }
+    form {
+        display: flex;
+    }
+    
+    input.submit {
+        height: fit-content;
+        padding: 12px 20px;
+        border: none;
+        margin-top: 20px;
+    
+    }
+}
+@media only screen and (min-width: 820px) and (max-width: 1180px){
+
+.navbar-nav .nav-link {
+    font-size: 30px;
+}    
+section.banner-section {
+    padding: 55px;
+}
+.common-btn a {
+    text-decoration: none;
+    color: aquamarine;
+    padding: 15px 35px;
+    display: block;
+}
+
+section.chefs {
+    padding: 20px 0 50px 0;
+}
+
+.burger-meta {
+    padding: 0;
+}
+
+section.big-burger {
+    padding: 63px 0 55px 0;
+}
+
+section.packages {
+    padding: 0 0 45px 0;
+}
+
+.single-package img {
+    width: 40%;
+}
+
+section.barry.barry-bg {
+    padding: 020px;
+}
+
+form {
+    display: flex;
+}
+
+input.submit {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+section.update {
+    padding: 90px;
+}
+section.best-burger {
+    padding-bottom: 22px;
+}
+.barry .barry-meta {
+    z-index: 6;
+    margin: 0;
+    width: 100%;
+}
+}

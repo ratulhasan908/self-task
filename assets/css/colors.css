@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+.hero-section{
+    background: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.hero-section::before {/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+    background: -moz-linear-gradient(top,  rgb(18, 20, 21) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgb(13, 14, 14) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgb(22, 23, 25) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+    /* background: black; */
+    content: "";
+    height: 52%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    /* opacity: 1.6; */
+    left: 0;
+}
+
+.barry-bg{
+    background: url("../img/food.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.common-btn{
+    background-color: #f64b3c;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 30px 0;
+    transition: .3s;
+}
+.common-btn:hover{
+    background-color: #ad261a;
+    color: #000;
+}
+.common-btn a{
+    text-decoration: none;
+    color: aquamarine;
+    padding: 0;
+    display: block;
+    padding: 15px 65px;
+}
+.header-section{
+
+    position: relative;
+}
+.header-section span i{
+    color: #f3f3f3;
+    font-size: 30px;
+}
+a.nav-link {
+    font-size: 20px;
+    color: antiquewhite;
+    padding: -1px;
+}
+
+li.nav-item {
+    padding: 0 0 0 25px;
+}
+section.header-section {
+    padding: 15px 0;
+}
+
+section.banner-section.banner-meta {
+    color: wheat;
+}
+
+section.banner-section {
+    padding: 190px 0;
+}
+
+.banner-meta h2 {
+    font-size: 50px;
+    padding: 16px 0;
+}
+
+.banner-meta {
+    color: white;
+}
+
+.banner-meta p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.chefs, .big-burger, .packages, .update{
+    background: url("../img/Design.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+.chef-title {
+    text-align: center;
+    padding: 30px;
+    color: #f64b3c;
+}
+
+.chef-title p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.chef-title h2 {
+    font-size: 50px;
+}
+
+.single-chef-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.single-chef-info img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.single-chef-info h4 {
+    padding: 20px 0 5px 0;
+    color: #f64b3c;
+}
+.single-chef-info p{
+    font-size: 18px;
+    color: #f64b3c;
+}
+
+.big-burger .container{
+    padding-top: 60px;
+}
+
+.burger-img {
+    text-align: center;
+}
+
+.burger-img img {
+    border-radius: 50%;
+}
+
+.burger-meta {
+    padding: 150px 15px;
+}
+.burger-meta h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.burger-meta p{
+    font-size: 20px;
+}
+
+.statistics-title {
+    padding: 30px;
+    text-align: center;
+    color: #ad261a;
+}
+
+.statistics-title h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.statistics-title p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.round-bar {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 65px;
+    
+}
+
+.round-bar .col-md-4 {
+    text-align: center;
+}
+
+section.packages {
+    padding: 250px 0;
+}
+
+.packages-title {
+    text-align: center;
+    /* font-size: 50px; */
+}
+
+.packages-title h2 {
+    font-size: 50px;
+    padding: 25px;
+}
+
+.single-package {
+    padding: 20px;
+    background: #fff;
+}
+
+.single-package h4 {
+    font-size: 35px;
+    color: darkblue;
+    padding-bottom: 20px;
+}
+
+.single-package img {
+    padding-bottom: 20px;
+    width: 30%;
+}
+
+.single-package p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+section.barry.barry-bg {
+    padding: 150px;
+    color: white;
+    position: relative;
+}
+
+section.barry.barry-bg h4 {
+    font-size: 30px;
+    padding: 20px 0;
+    color: #fff;
+    /* position: relative; */
+}
+
+section.barry.barry-bg h2 {
+    font-size: 50px;
+}
+
+section.barry.barry-bg:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #f64b3c;
+    top: 0;
+    left: 0;
+    opacity: .6;
+    z-index: 0;
+}
+
+.col-md-6.offset-md-3 {
+    z-index: 6;
+    color: initial;
+}
+
+section.update {
+    padding: 200px 0 250px 0;
+    text-align: center;
+}
+
+section.update p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+section.update h2 {
+    font-size: 50px;
+    padding: 30px;
+}
+
+input.input {
+    padding: 12px;
+    display: inline-block;
+    width: 600px;
+    margin: 20px 0;
+    border: none;
+    background: #f3f3f3;
+    border-radius: 30px 0px 0px 30px;
+}
+input.input:focus{
+    outline: none;
+} 
+
+/* section.big-burger {
+    background: orange;
+    padding-top: 50px;
+} */
+section.best-burger{
+    background: yellow;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+input.submit {
+    padding: 12px 45px;
+    border: none;
+    margin-left: -5px;
+    background: cadetblue;
+    border-radius: 0 30px 30px 0;
+}
+
+
+section.footer {
+    background: #000;
+    color: aliceblue;
+}
+
+
+section.footer h4 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+section.footer a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+section.footer li {
+    list-style: none;
+}
+
+section.footer {
+    padding: 20px 0;
+}
+
+section.footer p {
+    font-size: 18px;
+    max-width: 450px;
+}
+.footer-icons {
+    display: inline-block;
+}
+
+.footer-icons i {
+    font-size: larger;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.footer-icons i:hover {
+    color: gold;
+    /* transform: scale(1.5); */
+}
+
+
+section.footer a:hover {
+    color: gold;
+}
+
+/* progress bar css  */
